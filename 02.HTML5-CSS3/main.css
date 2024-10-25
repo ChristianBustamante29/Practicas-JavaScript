@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    color: #555;
+}
+
+
+.imagen {
+    width: 350px;
+    height: 350px;
+}
+
+
+
+/* Formas de centrar la imagen */
+
+/* .contenedor {
+    display: flex;
+    justify-content: center;
+} */
+
+/* .contenedor {
+    text-align: center;
+} */
+
+
+
+
+
+/* Centrar el texto y la imagen */
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+/* Solo centrar la imagen y no el texto */
+/* .contenedor {
+    display: flex;
+    flex-direction: column;
+}
+
+.imagen {
+    width: 350px;
+    height: 350px;
+    align-self: center;
+} */
